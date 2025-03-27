@@ -1,0 +1,20 @@
+{
+  "name": "virtual-museum",
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
+  ],
+  "env": {
+    "REACT_APP_API_URL": "https://virtual-museum-backend.herokuapp.com",
+    "REACT_APP_ENV": "production"
+  }
+} 
