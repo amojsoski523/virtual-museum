@@ -30,4 +30,10 @@ yarn-error.log*
 
 # TypeScript
 *.tsbuildinfo
-next-env.d.ts 
+next-env.d.ts
+
+# VS Code
+argv.json
+
+# Ableton MCP
+ableton-mcp/ 
